@@ -12,12 +12,12 @@
     <img src="https://img.shields.io/badge/Passport-informational?style=flat&logo=Passport&logoColor=white" alt="Passport badge"/>
 </p>
 
-This is a Wishlist API built using NestJS, designed to help users create and manage their personal wishlists. 
+This is a Wish list API built using NestJS, designed to help users create and manage their personal wish lists. 
 
 ## Features
 
 - **User Authentication:** Secure sign-up and sign-in using JWT.
-- **Wishlist Management:** Users can add, edit, and delete items on their wishlist.
+- **Wish list Management:** Users can add, edit, and delete items on their wishlist.
 - **Social Connectivity:** Users can send friend requests, accept them, and become friends to view each other's wishlists. (This feature is still in development)
 
 ## Prerequisites
@@ -31,14 +31,14 @@ Clone the repository. Create two files in the repo directory:
 
 `.env`
 ```javascript
-DATABASE_URL="postgresql://johndoe:randompassword@localhost:5434/nest?schema=public"
+DATABASE_URL="postgresql://postgres:123@localhost:5434/nest?schema=public"
 JWT_SECRET="secret"
 ```
 
 `.env.test`
 ```javascript
-DATABASE_URL="postgresql://johndoe:randompassword@localhost:5435/test?schema=public"
-JWT_SECRET="secret"
+DATABASE_URL="postgresql://postgres:123@localhost:5435/nest?schema=public"
+JWT_SECRET='super-secret'
 ```
 
 ## Run
